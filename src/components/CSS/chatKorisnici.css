@@ -1,0 +1,89 @@
+
+.forma_korisnici_prijavljeni{
+  position:absolute;
+  height: 380px;
+  width: 100%;
+  top:20vh;
+  padding: 10px;
+}
+
+.zapamti {
+  position:relative;
+  height: 50px;
+  top:-45px;
+}
+
+.ikona {
+ position:absolute;
+  margin: 50px 30px;
+  height: 45px;
+  padding-top: 5px;
+  padding-left: 10px;
+  z-index: 1;
+}
+
+.korisnik {
+  position:absolute;
+  margin: 50px 30px;
+  width: 300px;
+  height: 100%;
+  padding-top: 15px;
+  padding-left: 50px;
+  padding-right: 20px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+  background-color: rgb(192, 192, 187);
+  background-image: linear-gradient(
+    rgb(135, 138, 135),
+    rgb(234, 238, 234),
+    rgb(52, 53, 52)
+  );
+  color: rgb(3, 3, 3);
+}
+
+.naslov {
+  position:absolute;
+  top:15vh;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(6, 239, 247);
+  text-align: left;
+}
+
+.gumb{
+  position:absolute;
+  right: 25px;
+  top: 25px;
+}
+
+.odjava_gumb {
+  border: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  color: rgb(249, 249, 250);
+  background-color: rgb(3, 3, 90);
+  background-image: linear-gradient(
+    rgb(52, 53, 52),
+    rgb(151, 155, 151),
+    rgb(52, 53, 52)
+  );
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.odjava_gumb:hover {
+  color: rgb(7, 7, 7);
+  background-color: rgb(141, 141, 207);
+  background-image: linear-gradient(
+    rgb(2, 25, 32),
+    rgb(8, 250, 250),
+    rgb(0, 9, 12)
+  );
+}
